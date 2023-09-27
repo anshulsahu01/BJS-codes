@@ -129,5 +129,33 @@ console.log(result);
 
 // Conditions if else
 
+let age = 18
+
+if(age<18){
+    console.log("your are adult");
+
+}
+else{
+    console.log("minner");
+}
+
+
+
+// if else if else
+
+
+let collegeId = -10
+
+if(collegeId>=100){
+    console.log('you are in red team');
+
+}else if(collegeId>50){
+    console.log('you are in blue team');
+
+}else{
+    console.log('you are in winnng team');
+}
+
+
 
  
