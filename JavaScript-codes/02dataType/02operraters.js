@@ -152,8 +152,10 @@ if(collegeId>=100){
 }else if(collegeId>50){
     console.log('you are in blue team');
 
-}else{
+}else if (collegeId>30){
     console.log('you are in winnng team');
+}else{
+    console.log("you are in my team");
 }
 
 
