@@ -6,3 +6,7 @@ var firstName = "anshul";
 
 // declaration 
 let lastName = "sahu "
+
+console.log(firstName);
+
+console.log(lastName);
