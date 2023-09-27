@@ -19,6 +19,13 @@ there are two type f data typw in js
 
 var num1= 100;
 console.log(num1);
+console.log(typeof num1);
+
+
+var num1= "100";
+console.log(num1);
+console.log(typeof num1);
+
 
 var num2= 200;
 console.log(num2);
