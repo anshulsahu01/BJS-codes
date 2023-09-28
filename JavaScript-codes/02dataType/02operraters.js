@@ -166,12 +166,15 @@ if(collegeId>=100){
     console.log("you are in my team");
 }
 
-// We can have nested else if statement 
-/* if the condition is true in else if then that particular block of code will be exicuted
-the other else if conditionn will not be check
+
+/* 
+1. We can have nested else if statement ,
+2. if the condition is true in else if then that particular block of code will be exicuted
+3. the other else if conditionn will not be check
 example:
 check upside
 
+*/
 
 
  
