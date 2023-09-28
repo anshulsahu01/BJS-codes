@@ -1,4 +1,4 @@
-
+<html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,26 +30,26 @@
 
             var result = confirm("click to add the numbers cancel to sub")
 
-            console.log(result);
-            if(result== true ){ // == not =
+            // console.log(result);
+            // if(result== true ){ // == not =
 
-                var a=100
-                var b=200
-                alert(a+b)
+            //     var a=100
+            //     var b=200
+            //     alert(a+b)
 
-            }else{
-                var a=100
-                var b=50
-                alert(a-b);
+            // }else{
+            //     var a=100
+            //     var b=50
+            //     console.log(a-b);
 
-            }
+            // }
 
 
 
              /* it is used to take input from the use in js.
              it has one input box ok and cancel butten.
              
-    *the value which is entered in the input box will always be in sting data type
+            *the value which is entered in the input box will always be in sting data type
              
              */
 
@@ -61,6 +61,58 @@
             //  var lastName=prompt("enter ln")
             //  console.log(lastName);
 
+
+
+    // write a code to take an input from the user to  add the num
+
+    var num1= prompt("Enter the value num1")
+    console.log("num1 value is"+num1);
+    console.log(typeof num1);
+
+    var n1=Number(num1)
+    console.log("the value of num1"+n1);
+    console.log(typeof n1);
+
+
+    var num2= prompt("Enter the value num2")
+    console.log("num1 value is"+num2);
+    console.log(typeof num2);
+
+    var n2=Number(num2)
+    console.log("the value of num1"+n2);
+    console.log(typeof n2);
+
+    var result=n1+n2
+    console.log(result);// out-put consol mai ayga
+
+
+
+    /*
+    number method is used to convert a string into number that is explicit typcasting is happning
+    converting 1 dataType to another is called TypeCasting 
+
+    */ 
+
+
+    //number method , string method, bolean method are used for ecpliclit typeCasting
+
+    //Write a code i Js to take two input fromm the user for subtract
+
+    var res =Number(prompt("enter the value of num1")) -Number(prompt("enter the value of num2"))
+
+    console.log(res);
+
+
+
+    // Note 1 :- here explicit not required coz * is not opertor overloading like + operator
+    
+    console.log(10*"10");//100
+    console.log("10"*"10");//100
+    console.log(10-"2");//8
+
+    // Note: NAN stand for not a number , if the string i provided instead of number then we get this error
+
+    console.log(10/'ten'); //NaN
     </script>
     
 </body>
