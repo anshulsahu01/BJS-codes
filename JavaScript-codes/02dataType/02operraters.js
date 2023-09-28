@@ -144,7 +144,7 @@ else{
 // if else if else
 
 
-let collegeId = -10
+let collegeId = 55
 
 if(collegeId>=100){
     console.log('you are in red team');
@@ -155,7 +155,7 @@ if(collegeId>=100){
 
     // if there is any if then it will start again 
 
-    if(collegeId>40){
+    if(collegeId<60){
         console.log("hey");
 
     }
