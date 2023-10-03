@@ -1,0 +1,135 @@
+
+@media only screen and (max-width:700px){
+    body{
+        background-color: aquamarine;
+    }
+}
+#navdiv{
+    border: 2px solid black;
+    display: flex;
+}
+/*
+#Photo{
+    background-color: chocolate;
+    margin-right: 20%;
+    border: 2px solid black;
+    width: 28%
+}
+#PersonInfo{
+    background-color: chartreuse;
+    margin-left: 10%;
+    border: 2px solid black;
+    font-size: larger;
+    width:40%
+}
+#resume{
+    text-align: center;
+    font-size: x-large;
+}
+#info{
+    border: 2px solid black;
+}
+#butten{
+    margin-left: 100%;
+}
+#content{
+    display:flex;
+
+
+}
+#aside{
+    width: 85%;
+    background-color: #8e2222;
+}
+iframe{
+    width: 80%;
+}
+#centerdiv{
+    align-items: center;
+} */
+
+#one:hover{
+    background-color: rgb(103, 236, 14);
+
+}
+#two:hover{
+    background-color: rgb(173, 96, 13);
+
+}
+#three:hover{
+    background-color: rgb(142, 16, 125);
+
+}
+#four:hover{
+    background-color: rgb(225, 88, 88);
+
+}
+#five:hover{
+    background-color: rgb(8, 18, 1);
+
+}
+
+#PersonInfo{
+    /* background: #791b1b; */
+    margin-left: 65%;
+    font-size: x-large;
+    
+}
+.centerdiv{
+    text-align: center;
+}
+h1{
+    background: rgba(255, 192, 203, 0.324);
+}
+
+#header{
+    background: #efb609;
+    height: fit-content;
+}
+
+
+#image1{
+    height: 10%;
+    float: right;
+     margin-left: 38%; 
+    border: 2px solid black;
+    background-color: indigo;
+    
+ }
+ #personinfo {
+    border: 2px solid black;
+    width: 50%;
+    height: 216px;
+    background-color: darkslategray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(232, 39, 97);
+    /* font-size: 2rem; */
+ }
+ #content{
+    display: flex;
+    background-color: cornflowerblue;
+ }
+ #buttons{
+    border: 2px solid black;
+    width: 20%;
+ }
+ button{
+     padding: 10px 20px;
+     background-color: cadetblue;
+ }
+ #aside{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 80%;
+    height: 500px;
+ }
+ iframe{
+    width: 90%;
+    height: 80%;
+    background-color: bisque;
+ }
+ footer{
+    background-color:gray;
+    text-align: center;
+    color: blue;
+ }
