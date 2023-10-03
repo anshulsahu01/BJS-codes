@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,5 +116,49 @@
     console.log(10/'ten'); //NaN
     </script>
     
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Define styles for ON and OFF states */
+  .on {
+    background-color: green;
+    color: white;
+  }
+
+  .off {
+    background-color: red;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<button id="toggleButton" class="off">OFF</button>
+
+<script>
+// Get the button element
+const button = document.getElementById("toggleButton");
+
+// Function to toggle the button state and text
+function toggleButtonState() {
+  if (button.classList.contains("on")) {
+    button.classList.remove("on");
+    button.classList.add("off");
+    button.textContent = "OFF";
+  } else {
+    button.classList.remove("off");
+    button.classList.add("on");
+    button.textContent = "ON";
+  }
+}
+
+// Add a click event listener to the button
+button.addEventListener("click", toggleButtonState);
+</script>
+
 </body>
 </html>
