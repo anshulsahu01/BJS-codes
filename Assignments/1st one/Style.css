@@ -8,6 +8,14 @@
     border: 2px solid black;
     display: flex;
 }
+#on{
+   text-align: center;
+   margin-left: 115%;
+
+}
+/* *{
+    background: #63ba17;
+} */
 /*
 #Photo{
     background-color: chocolate;
@@ -71,7 +79,7 @@ iframe{
 
 #PersonInfo{
     /* background: #791b1b; */
-    margin-left: 65%;
+    margin-left: 55%;
     font-size: x-large;
     
 }
