@@ -19,3 +19,49 @@ body
 */
 //Write the code to perform the addition operation 
 
+
+function add(){
+    let a =5;
+    let b =15;
+    let result =a+b;
+
+    console.log(result);
+}
+
+
+function sub(){
+    let a =5;
+    let b =15;
+    let result =a-b;
+
+    console.log(result);
+}
+
+
+function multi(){
+    let a =5;
+    let b =15;
+    let result =a*b;
+
+    console.log(result);
+}
+
+function div(){
+    let a =5;
+    let b =15;
+    let result =a/b;
+
+    console.log(result);
+}
+add();
+// write a program to perform the addtion operation 
+
+
+
+//Passing an argument in fun
+
+function details(firstName){
+console.log(`${firstName} is a Cricketer`); //is ka use hum string mai value dene ke liye krte hai
+}
+details("virat")
+details("dhoni")
