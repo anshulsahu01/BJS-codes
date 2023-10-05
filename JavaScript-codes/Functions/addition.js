@@ -60,8 +60,24 @@ add();
 
 //Passing an argument in fun
 
-function details(firstName){
-console.log(`${firstName} is a Cricketer`); //is ka use hum string mai value dene ke liye krte hai
+function details(firstName ){
+console.log(`${firstName  } is a Cricketer `); //is ka use hum string mai value dene ke liye krte hai
 }
 details("virat")
 details("dhoni")
+
+//passing two argument 
+function details(firstName , lastName){
+    console.log(`${firstName  } is a Cricketer ${lastName}`); //is ka use hum string mai value dene ke liye krte hai
+    }
+    details("virat", "k")
+    details("dhoni")
+
+    function details2(firstName , lastName){
+    console.log(`${firstName} ${lastName } is a Cricketer `);
+       }
+        details2("virat", "k")
+        details2("dhoni") // If we pass one argument then the city parameter will be undefined
+        details2("anshul",'mp',2001)//2001 is extra argument which does not have any parameter to store
+    
+        details2()//undefine
