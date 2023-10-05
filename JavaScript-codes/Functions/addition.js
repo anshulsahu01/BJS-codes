@@ -81,3 +81,30 @@ function details(firstName , lastName){
         details2("anshul",'mp',2001)//2001 is extra argument which does not have any parameter to store
     
         details2()//undefine
+
+
+        //Write  a js code to get the square of a number
+
+        function square(a){
+            var result=a*a
+            console.log(`squae of this${a} is =${result} `);
+
+            return'hello'
+
+
+        }
+        square(2)
+        console.log(square(2));
+
+        //write the js code for cude of a number
+
+        function cude(n1){
+            let result =n1*n1*n1
+            console.log(`the cude of ${n1} is =${result}`);
+            return result 
+        }
+        cude(2)
+
+        console.log(cude);
+
+        console.log(cude(2));
