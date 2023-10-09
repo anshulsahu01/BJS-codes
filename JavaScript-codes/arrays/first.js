@@ -44,3 +44,7 @@ console.log(arr);
 // pop
 arr.pop()
 console.log(arr);
+
+
+// unshift :- stating ,mai add krta hai
+
