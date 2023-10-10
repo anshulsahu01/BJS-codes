@@ -156,7 +156,7 @@ if(collegeId>=100){
     // if there is any if then it will start again 
 
     if(collegeId<60){
-        console.log("hey");
+        console.log("hey bro");
 
     }
 
