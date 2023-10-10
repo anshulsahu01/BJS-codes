@@ -35,7 +35,7 @@
 //    console.log(i+" "+anshuldetails[i]);
 
 // }
-
+//01
 let arr=['a','b','c','d']
 //push
 arr.push=('e')
