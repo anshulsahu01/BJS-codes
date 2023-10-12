@@ -98,4 +98,20 @@ console.log(weekDay[w])
  Single:true,
 }
 
+//crud
+
+//c
+console.log(anshul);
+
+//r
 console.log(anshul.firstName);
+
+//u
+anshul.firstName="anshu"
+console.log(anshul.firstName);
+
+
+
+//d
+delete anshul.Single
+console.log(anshul);
