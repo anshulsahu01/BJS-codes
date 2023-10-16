@@ -1,0 +1,86 @@
+<!-- hum js vo niche isliye add krte hai wuki jab hum dom ka use krte hai tb bo load ni hoga is kiye niche likhete hai -->
+
+
+<!-- /* 
+
+it is used for validation
+
+DOM -Document object model 
+
+every ohtml page is treated as document 
+we can access the element in (object) by using inbuild method (Document.getElementBYid())
+
+
+document.getElementById()
+document.getElementByClass()
+document.getElementByTagName()
+document.getElementByQuerrySelector()
+
+Advantages of DOM
+1) we can add the html contant dynamiclly on perforning the action 
+we can add the css and action using dom
+we can hide the contant or we  can  css using dom  */
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <p id="one">hello</p>
+
+    <p id="two">mornig</p>    
+
+
+    <!-- onclick is a event which perform a action on clicking a button
+    to the onclick we have to always call the function -->
+
+    <button onclick="display()">click</button>
+</body>
+<script>
+/*
+Property of dom inner html it is used to access t=the contant of html element 
+refr.Html
+2) value property : it is used to access the value from the input box(user input will be taken in the input tag)ref.value
+
+3)Style this property is used to access all the css properties
+
+
+exampl
+js tag in headtag 
+
+note: if the element is not avaiable then it return the null value
+example: 
+
+
+in the above example first js code is exicuited then the html body tag is exicuited.
+in order to avoid the null first we need to exicuit all the html element then script fill should be exicuited
+if the element is not formed then get elementBYId menthod return null
+*/
+
+
+document.getElementById("one")
+
+/*
+ex2: accessing the address by using id
+
+*/
+
+// updating the contant on the document 
+
+// let a =document.getElementById("two")
+// a.innerHTML ="hy"
+
+function display(){
+    var a= document.getElementById("two").innerHTML="anshul"
+}
+
+
+
+
+</script>
+</html>
