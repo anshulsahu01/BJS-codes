@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <h2 id="one">
+    <p>good mornig </p>
+    <p>good afternoon </p>
+    <p>good night</p>
+
+    <button onclick="display()">click</button> -->
+   
+
+<!--    
+    <p class="1">good mornig </p>
+    <p class="2">good afternoon </p>
+    <p class="3">good night</p>
+
+    <button onclick="display()">click</button>
+ -->
+
+
+
+
+
+    <!-- //get elementby tag name method 
+    
+it is used to fatch the element based on tha tag name . 
+elements on a document are itrable .
+using this method we can get the tag name address by index .
+index starts from 0  
+-->
+
+
+
+<!-- ex:- 3
+dom style 
+//address.style.cssProperty
+sytle property invokes all the css properties in js 
+itr is used to add the styling on the document y0u can add more then one css property usin g the address of an element 
+
+
+
+
+-->
+<!-- ex:-3 -->
+<!-- <p id="redp">good mornig </p>
+<p id="greenp">good afternoon </p>
+<p id="bluep">good night</p>
+
+<button onclick="ChangeColor()">click</button>
+ -->
+
+
+
+
+<!-- 4Ex -->
+<!-- 
+    value property
+    note: input of the user can be taken on the input tag .
+    the data which is present in the input tag can be fatched using "value" properties 
+
+    * write a js code to take firstname & lastname input from the user
+ -->
+ FirstName: <input type="text" id="fs">
+ LastName: <input type="text" id="ls">
+
+
+ <button onclick="display()">click</button>
+ <p id="fullname">fullname</p>
+
+</body>
+<script>
+    // ex 4
+    function display(){
+        let fs= document.getElementById("fs").value
+        let ls= document.getElementById("ls").value
+        document.getElementById("fullname").innerHTML=fs+ls
+    }
+
+
+
+    // ex:- 3;
+//    function ChangeColor(){
+//  document.getElementById("redp").style.color='red'
+//  document.getElementById("greenp").style.color='green'
+//   var r = document.getElementById("bluep")
+//   r.style.color='blue'
+//   r.style.backgroungColor='yellow'
+
+
+//   var r1 = document.getElementById("greenp")
+//   r1.style.color='green'
+//   r1.style.backgroungColor='green'
+//   r1.style.border='5px solid red'
+
+
+
+
+    // function display(){
+
+    
+    // var r = document.getElementsById("one")
+    // console.log(r);
+    // console.log(r[0]);
+    // console.log(r[0].innerHTML);
+    // console.log(r[1]);
+    // console.log(r[1].innerHTML);
+    // console.log(r[2]);
+    // console.log(r[2].innerHTML);
+
+    // }
+
+    // get element by tagname return the collection of all elements
+    /*
+    this method returns the html collection
+    the html collectio are like array elements
+    
+
+    get element by class name ;
+    it return the collection of element with the specific class name this method returns html collection
+
+    it returns the length of the elements which are present on html collecction.
+    (getElementByclass name are ittrable object where the classname and tag name are repreted they are stored in the html collection
+    
+    2)getElementById is unique we access them by particular id
+
+    )
+
+
+    */
+
+ 
+
+
+</script>
+</html>
