@@ -1,0 +1,84 @@
+<!-- // on submit attribute get activated on clicking the submit button this attribute is written in form tag
+//htis attribute always holds bul value the action attribute will always get exitcuited whnen on submit is true 
+// if this is false then action attribute will not be exitcuited i.e it stops the web page by display error msg which are present in script fill
+
+
+
+
+// code for it -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <form action="" onsubmit=" validate()">
+        firstName; <input type="text"  id="fn">
+        <span id="msg">*</span>
+    <br>
+        <input type="submit" value="submit">
+    
+    </form> -->
+
+    <!-- ex2  -->
+
+    <form action=" " onsubmit="return validation()">
+    
+        phoneNumber: <input type="text" id="phn">
+
+        <span id="msg">*</span>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+
+
+</body>
+<!-- cahrAt method
+
+to fatch the char to string we make use of charAt method  it accepts the parameter which is index.
+based onn the index we will get the char syntex ref,charAt(index)
+
+code for number validation
+-->
+<script>
+
+    // function validate(){
+
+    //     let res =document.getElementById("fn").va
+
+
+    //     }
+
+    //ex 2
+
+    function validation(){
+        let res = document.getElementById("phn")
+
+        if(res.length ==0){
+            document.getElementById("msg").innerHTML="phone no is empty"
+
+            return false;// ye likho ge to action mai likh hua ni chalega
+        }
+
+        else if(res.length<10){
+            document.getElementById("msg").innerHTML="phone no is no greater then 10"
+            return false
+        }
+
+        else if(res.charAt(0)<=5){
+            document.getElementById("msg").innerHTML="phone no must be greater then 10 "
+
+            return false
+        }
+console.log("hey");
+
+    }
+
+        
+    
+</script>
+</html>
