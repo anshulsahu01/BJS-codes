@@ -8,5 +8,6 @@ for(let i=arr.length;i>=0;i--){
     console.log("hey for check");
     if(i%2!=0){
         console.log(arr[i-1]);
+        
     }
 }
